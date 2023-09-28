@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio If Else</title>
+</head>
+
+<body>
+    <script>
+        let opcion = parseInt(prompt("¿Qué ejercicio quieres ejecutar, 1 o 2?"))
+        switch(opcion) {
+        case 1:
+
+             let edad = parseInt(prompt("¿Qué edad tienes?"));
+
+             if(edad >= 18) {
+                console.log("Eres mayor de edad");
+             }
+             else {
+                console.log("Eres menor de edad");
+             }
+         break
+        case 2:
+
+             let numero = 5, intentos = 3, respuesta = parseInt(prompt("Adivina el numero entre 1 y 10, tienes " + intentos + " intentos."));
+
+             if (respuesta == numero){
+                  console.log("Has acertado, el numero es " + numero);
+             }
+             else {
+
+               while(intentos > 1) {
+               intentos = intentos - 1
+               console.log(respuesta + " no es correcto, tienes " + intentos + " intentos.")
+               respuesta = parseInt(prompt(respuesta + " no es correcto, tienes " + intentos + " intentos."));
+               if (respuesta == numero){
+                  console.log("Has acertado, el numero es " + numero);
+                  break
+                }
+               }
+             }
+
+             if(respuesta != numero) {
+               console.log("Lo siento, te has quedado sin intentos.")
+              }
+          break
+            }
+
+
+
+             /*
+             if(respuesta == numero) {
+               console.log("Has acertado el numero");
+             }
+             else{
+               intentos = intentos - 1
+               console.log(respuesta + " no es correcto, tienes " + intentos + " intentos.")
+               respuesta = parseInt(prompt(respuesta + " no es correcto, tienes " + intentos + " intentos."));
+              
+                if(respuesta == numero) {
+                   console.log("Has acertado el numero");
+                }
+                else{
+                  intentos = intentos - 1
+                  console.log(respuesta + " no es correcto, tienes " + intentos + " intentos.")
+                  respuesta = parseInt(prompt(respuesta + " no es correcto, tienes " + intentos + " intentos."));
+             
+                  if(respuesta == numero) {
+                    console.log("Has acertado el numero");
+                  }
+                  else{
+                    intentos = intentos - 1
+                    console.log(respuesta + " no es correcto, tienes " + intentos + " intentos.")
+                  }
+               }
+            }
+            */
+         
+
+    </script>
+</body>
+
+</html>
