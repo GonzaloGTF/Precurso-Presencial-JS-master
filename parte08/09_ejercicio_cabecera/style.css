@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    padding: 3vh 6vh 3vh 3vh;
+    background-color:rgb(0, 153, 255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color:white
+}
+
+#links{
+    display:flex;
+    flex-direction: space-around;
+    list-style-type: none;
+    color:white
+}
+
+li{
+    padding: 0 2vh 0 2vh;
+}

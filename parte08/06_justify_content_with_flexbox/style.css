@@ -1,4 +1,6 @@
 #just-cont {
     display:flex;
-    justify-content: center;
+    /*justify-content: center;*/
+    height: 500px;
+    align-items: center;
 }

@@ -1,9 +1,11 @@
 #js-logo{
     padding: 50px;
     margin: 20px;
+    border: 2px solid cadetblue
 }
 
 #html-logo{
     padding: 20px;
     margin: 50px;
+    border: 2px solid cadetblue
 }
