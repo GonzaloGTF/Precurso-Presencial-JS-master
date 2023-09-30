@@ -18,3 +18,5 @@ let nombrePrimeraAsignatura = estudiante.asignaturas[0].nombre;
 
 console.log(nombreMascota);
 console.log(nombrePrimeraAsignatura);
+console.log(estudiante.mascota.nombre)
+console.log(estudiante.asignaturas[1].notas[1])
