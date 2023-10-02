@@ -10,3 +10,5 @@ let numero2 = 5;
 
 // Llamada a la función
 suma_y_muestra(numero1, numero2);
+suma_y_muestra(5)
+suma_y_muestra(5, 6, 8)

@@ -15,3 +15,5 @@ for (let i = 0; i < 4; i++) {
 }
 
 //Y al finalizar se podrá ver en la web el resultado
+
+console.log(body)

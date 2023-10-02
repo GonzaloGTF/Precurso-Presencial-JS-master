@@ -22,6 +22,8 @@ let allParagraphQS = document.querySelectorAll(".paragraph");
 //Cogemos todos los elementos que son del mismo tipo
 let allPsQS = document.querySelectorAll("p");
 
+let idQS = document.querySelectorAll("#title");
+
 console.log(title);
 console.log(paragraphs);
 console.log(ps);
@@ -30,3 +32,5 @@ console.log(firstParagraph);
 console.log(firstP);
 console.log(allParagraphQS);
 console.log(allPsQS);
+
+console.log(idQS)
